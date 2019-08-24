@@ -254,15 +254,17 @@
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body">
-              <div class="form-inner">
-                <input type="text" placeholder="E-Mail">
+            <form action="https://formspree.io/andrew.okonar@gmail.com" method="POST" name="input">
+              <div class="modal-body">
+                <div class="form-inner">
+                  <input type="email" name="_replyto" placeholder="E-Mail">
+                </div>
               </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Send</button>
-            </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" value="Send" class="btn btn-primary">Send</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
