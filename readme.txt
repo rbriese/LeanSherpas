@@ -22,7 +22,7 @@ Please find this line in index.html and legal/index.html and change andrew.okona
 
 
 <strong>Trainings & Talks settings</strong>
-In order to add a new post you need to copy the previous one and paste it at the end of section:
+In order to add a new post you need to copy the previous one and paste it at the end of section: 
 `
 <div class="col-lg-4 col-md-6 item block">
   <div class="image-cover">
