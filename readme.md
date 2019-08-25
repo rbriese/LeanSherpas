@@ -1,4 +1,4 @@
-**## How to create and deploy?**<br/>
+**How to create and deploy?**<br/>
 
 1) Copy this repository and create your own project.<br/>
 2) Then click on "settings" and find "GitHub pages". Select "master branch".<br/>
@@ -7,14 +7,14 @@ After you successfully copy the project you can make changes simply pushing your
 ----------------------------------------------------------------------------
 
 
-**## to create custom domain?**<br/>
+**How to create custom domain?**<br/>
 1) You should add your domain in settings tab.<br/>
 2) Then you should go to your domain website and make DNS settings.<br/>
 Here you can find more information: [GitHub Pages](https://help.github.com/en/articles/using-a-custom-domain-with-github-pages)
 ----------------------------------------------------------------------------
 
 
-**## Newsletter section settings**<br/>
+**Newsletter section settings**<br/>
 For the contact form, we are using [service](https://formspree.io/). In order to receive emails in your email, you need to change it in the code.<br/>
 Please find this line in index.html and legal/index.html and change andrew.okonar@gmail.com to your own email.<br/>
 ```
@@ -23,7 +23,7 @@ Please find this line in index.html and legal/index.html and change andrew.okona
 ----------------------------------------------------------------------------
 
 
-**## Trainings & Talks settings**<br/>
+**Trainings & Talks settings**<br/>
 In order to add a new post you need to copy the previous one and paste it at the end of section:<br/>
 ```
 <div class="col-lg-4 col-md-6 item block">
@@ -47,7 +47,7 @@ To make the post inactive you just need to add class "old":
 ----------------------------------------------------------------------------
 
 
-**## For developers**<br/>
+**For developers**<br/>
 To automatically recompile sources during development run: 'gulp' -- starting server and watch<br/>
 
 ```
