@@ -722,7 +722,9 @@ header {
     color: #04162C;
     letter-spacing: 0;
     margin-bottom: 12px;
-    font-weight: bold; }
+    font-weight: bold;
+    line-height: 1.2;
+    display: block; }
     @media (max-width: 992px) {
       .trainings .block-title {
         font-size: 18px;
