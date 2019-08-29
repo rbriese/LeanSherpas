@@ -472,8 +472,8 @@ header {
         line-height: 30px; } }
     @media (max-width: 767px) {
       .title.small {
-        font-size: 20px;
-        line-height: 24px; } }
+        font-size: 24px;
+        line-height: 30px; } }
   .title.yellow:after {
     background: #FF9E22; }
   .title.yellow:before {
@@ -563,8 +563,9 @@ header {
         margin-bottom: 60px; } }
     @media (max-width: 767px) {
       .services .title {
-        font-size: 20px;
-        margin-bottom: 48px; } }
+        font-size: 24px;
+        margin-bottom: 48px;
+        line-height: 30px; } }
   .services .top {
     display: flex;
     align-items: center; }
@@ -574,13 +575,13 @@ header {
     @media (max-width: 767px) {
       .services .top img {
         width: 24px; } }
-  .services .blue-title {
+  .services .yellow-title {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     color: #0296D7;
-    padding-left: 15px; }
+    padding-left: 20px; }
     @media (max-width: 992px) {
-      .services .blue-title {
+      .services .yellow-title {
         font-size: 18px;
         line-height: 1.2; } }
   .services .block-title {
@@ -1079,8 +1080,16 @@ footer {
   align-items: center;
   z-index: 100;
   display: none; }
+  @media (max-width: 767px) {
+    .legal-terms {
+      flex-wrap: wrap;
+      height: auto;
+      padding: 8px; } }
   .legal-terms.active {
     display: flex; }
+  @media (max-width: 767px) {
+    .legal-terms p {
+      margin-bottom: 3px; } }
   .legal-terms a {
     background: #fff;
     color: #04162C;
