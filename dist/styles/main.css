@@ -574,13 +574,13 @@ header {
     @media (max-width: 767px) {
       .services .top img {
         width: 24px; } }
-  .services .yellow-title {
+  .services .blue-title {
     font-weight: bold;
     font-size: 20px;
-    color: #FF9E22;
+    color: #0296D7;
     padding-left: 20px; }
     @media (max-width: 992px) {
-      .services .yellow-title {
+      .services .blue-title {
         font-size: 18px;
         line-height: 1.2; } }
   .services .block-title {
