@@ -577,9 +577,9 @@ header {
         width: 24px; } }
   .services .yellow-title {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     color: #0296D7;
-    padding-left: 20px; }
+    padding-left: 15px; }
     @media (max-width: 992px) {
       .services .yellow-title {
         font-size: 18px;
