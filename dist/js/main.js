@@ -10,9 +10,29 @@ $(document).ready(function() {
   }).trigger('scroll');
 });
 
-$('.menu-js').on('click', function() {
-  $('.inner ul').toggleClass('active')
-})
+
+//--------------------------------------
+
+$('.inner ul').on('click', function(e) {
+  e.stopPropagation();
+});
+
+$('.menu-js').on('click', function(e) {
+  e.stopPropagation();
+
+  if($('.inner ul').hasClass('active')) {
+    $('.inner ul').removeClass('active');
+  }
+  else {
+    $('.inner ul').addClass('active');
+  }
+});
+
+$(document.body).click( function() {
+  $('.inner ul').removeClass('active');
+});
+//--------------------------------------
+
 
 $(document).ready(function() {
   $('.single-page-nav').singlePageNav();
