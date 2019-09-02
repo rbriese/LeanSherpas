@@ -21,6 +21,10 @@ function closeMenu() {
   }
 }
 
+$(document).on('touchstart', '.inner ul', function(e) {
+  e.stopPropagation();
+});
+
 $(document).on('touchstart', '.menu-js', function(e) {
   e.stopPropagation();
   closeMenu();
@@ -33,7 +37,12 @@ $(document).on('touchstart', 'body', function() {
 
 
 $(document).ready(function() {
-  $('.single-page-nav').singlePageNav();
+  $('.single-page-nav').singlePageNav({
+
+    beforeStart: function() {
+      closeMenu();
+    }
+  });
 
   $('#carousel2').owlCarousel({
     items: 1,
