@@ -21,11 +21,7 @@ function closeMenu() {
   }
 }
 
-$(document).on('touchstart', '.inner ul', function(e) {
-  e.stopPropagation();
-});
-
-$(document).on('touchstart', '.menu-js, .inner ul a', function(e) {
+$(document).on('touchstart', '.menu-js', function(e) {
   e.stopPropagation();
   closeMenu();
 });
