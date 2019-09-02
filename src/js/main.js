@@ -12,20 +12,22 @@ $(document).ready(function() {
 
 
 //--------------------------------------
-
-$(document).on('touchstart', '.inner ul', function(e) {
-  e.stopPropagation();
-});
-
-$(document).on('touchstart', '.menu-js', function(e) {
-  e.stopPropagation();
-
+function closeMenu() {
   if($('.inner ul').hasClass('active')) {
     $('.inner ul').removeClass('active');
   }
   else {
     $('.inner ul').addClass('active');
   }
+}
+
+$(document).on('touchstart', '.inner ul', function(e) {
+  e.stopPropagation();
+});
+
+$(document).on('touchstart', '.menu-js, .inner ul a', function(e) {
+  e.stopPropagation();
+  closeMenu();
 });
 
 $(document).on('touchstart', 'body', function() {
