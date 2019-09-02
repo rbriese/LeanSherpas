@@ -28,7 +28,7 @@ $('.menu-js').on('click touchstart', function(e) {
   }
 });
 
-$(document.body).on('click touchstart', function(e) {
+$(document.body).on('click', function() {
   $('.inner ul').removeClass('active');
 });
 //--------------------------------------
