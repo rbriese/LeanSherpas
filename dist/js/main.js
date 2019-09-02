@@ -13,11 +13,11 @@ $(document).ready(function() {
 
 //--------------------------------------
 
-$('.inner ul').on('touchend click', function(e) {
+$('.inner ul').on('touchmove click', function(e) {
   e.stopPropagation();
 });
 
-$('.menu-js').on('touchend click', function(e) {
+$('.menu-js').on('touchmove click', function(e) {
   e.stopPropagation();
 
   if($('.inner ul').hasClass('active')) {
@@ -28,7 +28,7 @@ $('.menu-js').on('touchend click', function(e) {
   }
 });
 
-$(document.body).on('touchend click', function() {
+$(document.body).on('touchmove click', function() {
   $('.inner ul').removeClass('active');
 });
 //--------------------------------------
