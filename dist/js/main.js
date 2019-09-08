@@ -12,30 +12,37 @@ $(document).ready(function() {
 
 
 //--------------------------------------
-
-$('.inner ul').on('click', function(e) {
-  e.stopPropagation();
-});
-
-$('.menu-js').on('click', function(e) {
-  e.stopPropagation();
-
+function closeMenu() {
   if($('.inner ul').hasClass('active')) {
     $('.inner ul').removeClass('active');
   }
   else {
     $('.inner ul').addClass('active');
   }
+}
+
+$(document).on('touchstart', '.inner ul', function(e) {
+  e.stopPropagation();
 });
 
-$(document.body).click( function() {
+$(document).on('touchstart', '.menu-js', function(e) {
+  e.stopPropagation();
+  closeMenu();
+});
+
+$(document).on('touchstart', 'body', function() {
   $('.inner ul').removeClass('active');
 });
 //--------------------------------------
 
 
 $(document).ready(function() {
-  $('.single-page-nav').singlePageNav();
+  $('.single-page-nav').singlePageNav({
+
+    beforeStart: function() {
+      closeMenu();
+    }
+  });
 
   $('#carousel2').owlCarousel({
     items: 1,
