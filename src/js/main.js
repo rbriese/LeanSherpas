@@ -37,7 +37,13 @@ $(document).on('touchstart', 'body', function() {
 
 
 $(document).ready(function() {
-  $('.single-page-nav').singlePageNav();
+  $('.single-page-nav').singlePageNav({
+
+    offset: $('header.active').outerHeight(),
+    beforeStart: function() {
+      closeMenu();
+    }
+  });
 
   $('#carousel2').owlCarousel({
     items: 1,

@@ -39,6 +39,7 @@ $(document).on('touchstart', 'body', function() {
 $(document).ready(function() {
   $('.single-page-nav').singlePageNav({
 
+    offset: $('header.active').outerHeight(),
     beforeStart: function() {
       closeMenu();
     }

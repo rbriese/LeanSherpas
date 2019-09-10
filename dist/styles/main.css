@@ -628,9 +628,7 @@ header {
         margin-bottom: 60px; } }
     @media (max-width: 767px) {
       .services .title {
-        font-size: 18px;
-        margin-bottom: 48px;
-        line-height: 30px; } }
+        margin-bottom: 48px; } }
   .services .top {
     display: flex;
     align-items: center; }
