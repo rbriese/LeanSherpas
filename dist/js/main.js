@@ -52,7 +52,8 @@ $(document).ready(function() {
     offset: $('header.active').outerHeight(),
     beforeStart: function() {
       closeMenu();
-    }
+    },
+    filter: ':not(.external)'
   });
 
   $('#carousel2').owlCarousel({

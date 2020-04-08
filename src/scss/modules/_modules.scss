@@ -234,6 +234,11 @@ header {
       height: 778px;
       background-size: contain;
       background-position: bottom;
+      header {
+        ul {
+          top: 105px;
+        }
+      }
     }
     header {
       background: #fff !important;
