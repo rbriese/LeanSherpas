@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="37px" viewBox="0 0 36 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Artboard" transform="translate(-150.000000, -2832.000000)" stroke="#FFFFFF">
+            <g id="Group-50" transform="translate(0.000000, 2622.000000)">
+                <g id="Group-42" transform="translate(128.000000, 70.000000)">
+                    <g id="Group-31" transform="translate(0.000000, 118.000000)">
+                        <g id="Icon" transform="translate(24.000000, 24.000000)">
+                            <path d="M16,32.5769231 C24.8362105,32.5769231 32,25.3786923 32,16.5 C32,7.62130769 24.8362105,0.423076923 16,0.423076923 C7.16378947,0.423076923 0,7.62130769 0,16.5 C0,25.3786923 7.16378947,32.5769231 16,32.5769231 L16,32.5769231 Z" id="Stroke-238" stroke-width="3.30105263"></path>
+                            <polyline id="Stroke-240" stroke-width="3.36842105" stroke-linejoin="round" points="15.1578947 9.30769231 15.1578947 17.1109231 19.6538947 20.2535385"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

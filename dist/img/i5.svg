@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="25px" viewBox="0 0 27 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-129.000000, -1626.000000)" stroke="#0296D7" stroke-width="2.18181818">
+            <g id="Group-28" transform="translate(0.000000, 1278.000000)">
+                <g id="Group-27" transform="translate(130.000000, 70.000000)">
+                    <g id="Group-26" transform="translate(0.000000, 108.000000)">
+                        <g id="Group-21" transform="translate(1.000000, 172.000000)">
+                            <g id="Icon">
+                                <path d="M0,8.59961053 C0,8.25255789 0.349090909,7.73695263 0.693272727,7.73695263 L6.65072727,7.73695263 C6.99709091,7.73695263 7.09090909,8.25532105 7.09090909,8.59961053 L7.09090909,20.3717684 C7.09090909,20.7188211 6.99545455,21.0001105 6.65072727,21.0001105 L0.693272727,21.0001105 C0.346909091,21.0001105 0,20.7160579 0,20.3717684 L0,8.59961053 L0,8.59961053 Z" id="Stroke-70"></path>
+                                <path d="M15.8181818,6.63157895 L22.5665455,6.63157895 C23.3656364,6.63157895 24.0703636,8.70615789 23.9110909,9.46602632 C23.9110909,9.46602632 21.9807273,17.3725263 21.5116364,18.6010263 C21.042,19.8295263 19.4705455,19.8947368 19.1334545,19.8947368 L18,19.8947368" id="Stroke-72" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                                <path d="M7.6524,9.46116316 L8.8884,8.96434737 L11.5229455,4.23050526 C11.5229455,4.23050526 11.4187636,1.72155789 11.6811273,0.966663158 C11.9440364,0.212321053 14.3593091,-1.16317895 15.7813091,1.91995263 C17.2027636,5.00253158 15.7813091,6.72563684 15.7813091,6.72563684" id="Stroke-74" stroke-linecap="round"></path>
+                                <path d="M11.9249455,20.1034658 C10.6834909,19.6436763 7.48821818,18.4240184 7.48821818,18.4240184" id="Stroke-76" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                                <path d="M12,19.8947368 L19.0909091,19.8947368" id="Stroke-78" stroke-linecap="round"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

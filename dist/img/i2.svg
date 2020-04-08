@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="28px" viewBox="0 0 26 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Artboard" transform="translate(-438.000000, -1454.000000)" stroke="#0296D7" stroke-width="2.28571429">
+            <g id="Group-28" transform="translate(0.000000, 1278.000000)">
+                <g id="Group-27" transform="translate(130.000000, 70.000000)">
+                    <g id="Group-26" transform="translate(0.000000, 108.000000)">
+                        <g id="Group-24" transform="translate(310.000000, 0.000000)">
+                            <g id="Icon">
+                                <path d="M22.5793244,19.4285714 C22.5793244,15.6417143 17.5563488,12.5714286 11.3598122,12.5714286 C5.16327561,12.5714286 0.1403,15.6417143 0.1403,19.4285714" id="Stroke-13"></path>
+                                <path d="M11.3598122,12.5764 C14.767739,12.5764 17.5305439,9.76211429 17.5305439,6.29068571 C17.5305439,2.81925714 14.767739,0.00497142857 11.3598122,0.00497142857 C7.95188537,0.00497142857 5.18908049,2.81925714 5.18908049,6.29068571 C5.18908049,9.76211429 7.95188537,12.5764 11.3598122,12.5764 L11.3598122,12.5764 Z" id="Stroke-15"></path>
+                                <path d="M22.4390244,19.4285714 L22.4390244,23.18 C22.4390244,23.5148571 22.3273902,24 22.0020244,24 L0.717487805,24 C0.398853659,24 0,23.5108571 0,23.18 L0,19.4285714" id="Stroke-17"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

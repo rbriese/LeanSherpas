@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="26px" viewBox="0 0 27 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Artboard" transform="translate(-128.000000, -1455.000000)" stroke="#0296D7">
+            <g id="Group-28" transform="translate(0.000000, 1278.000000)">
+                <g id="Group-27" transform="translate(130.000000, 70.000000)">
+                    <g id="Group-26" transform="translate(0.000000, 108.000000)">
+                        <g id="Group-16">
+                            <g id="Icon">
+                                <path d="M11.8622769,23.6923077 C18.3195077,23.6923077 23.5545846,18.4572308 23.5545846,12 C23.5545846,5.54276923 18.3195077,0.307692308 11.8622769,0.307692308 C5.40504615,0.307692308 0.169969231,5.54276923 0.169969231,12 C0.169969231,18.4572308 5.40504615,23.6923077 11.8622769,23.6923077 L11.8622769,23.6923077 Z" id="Stroke-202" stroke-width="2.41230769"></path>
+                                <polyline id="Stroke-204" stroke-width="2.46153846" stroke-linejoin="round" points="7.02006154 11.6174154 10.3382154 15.0211077 16.8662154 8.86726154"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

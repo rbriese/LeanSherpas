@@ -10,6 +10,16 @@ $(document).ready(function() {
   }).trigger('scroll');
 });
 
+$(document).ready(function() {
+  $(document).on('scroll', function() {
+    if ($(this).scrollTop() > 538) {
+      $('.traning-menu-wrap').addClass('active');
+    } else {
+      $('.traning-menu-wrap').removeClass('active');
+    }
+  }).trigger('scroll');
+});
+
 
 //--------------------------------------
 function closeMenu() {
