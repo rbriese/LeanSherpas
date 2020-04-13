@@ -14,7 +14,8 @@
   "private": true,
   "dependencies": {
     "bootstrap": "*",
-    "jquery": "*"
+    "jquery": "*",
+    "natives": "^1.1.6"
   },
   "devDependencies": {
     "boolean": "*",
