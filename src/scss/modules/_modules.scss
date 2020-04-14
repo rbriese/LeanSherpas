@@ -237,16 +237,7 @@ header {
     background-position: bottom;
   }
 
-  &.traning {
-    background: none;
-    max-height: 717px;
-    border-bottom: solid 1px #E5E5E5;
-    position: relative;
-    @media(max-width: 767px) {
-      height: 778px;
-      background-size: contain;
-      background-position: bottom;
-    }
+  &.static-header {
     header {
       background: #fff !important;
       border-bottom: solid 1px rgba(0, 0, 0, 0.12) !important;
@@ -256,6 +247,18 @@ header {
         position: fixed;
         border-bottom: solid 1px rgba(0, 0, 0, 0.12) !important;
       }
+    }
+  }
+
+  &.traning {
+    background: none;
+    max-height: 717px;
+    border-bottom: solid 1px #E5E5E5;
+    position: relative;
+    @media(max-width: 767px) {
+      height: 778px;
+      background-size: contain;
+      background-position: bottom;
     }
     .badge-mobile {
       display: none;

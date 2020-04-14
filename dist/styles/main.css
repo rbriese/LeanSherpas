@@ -582,6 +582,15 @@ header {
       height: 778px;
       background-size: contain;
       background-position: bottom; } }
+  .hero.static-header header {
+    background: #fff !important;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.12) !important;
+    position: absolute; }
+    @media (max-width: 992px) {
+      .hero.static-header header {
+        background: #fff !important;
+        position: fixed;
+        border-bottom: solid 1px rgba(0, 0, 0, 0.12) !important; } }
   .hero.traning {
     background: none;
     max-height: 717px;
@@ -592,15 +601,6 @@ header {
         height: 778px;
         background-size: contain;
         background-position: bottom; } }
-    .hero.traning header {
-      background: #fff !important;
-      border-bottom: solid 1px rgba(0, 0, 0, 0.12) !important;
-      position: absolute; }
-      @media (max-width: 992px) {
-        .hero.traning header {
-          background: #fff !important;
-          position: fixed;
-          border-bottom: solid 1px rgba(0, 0, 0, 0.12) !important; } }
     .hero.traning .badge-mobile {
       display: none;
       text-align: center;
