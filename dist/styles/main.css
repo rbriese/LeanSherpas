@@ -401,6 +401,16 @@ header {
   header.active {
     background: #fff;
     border-bottom: solid 1px rgba(0, 0, 0, 0.12); }
+  header .button {
+    margin-top: 0px !important;
+    max-width: 160px; }
+  header .btn-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; }
+    @media (max-width: 767px) {
+      header .btn-wrap {
+        display: none; } }
   header .menu-js {
     cursor: pointer; }
   header .inner {
@@ -572,6 +582,15 @@ header {
       height: 778px;
       background-size: contain;
       background-position: bottom; } }
+  .hero.static-header header {
+    background: #fff !important;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.12) !important;
+    position: absolute; }
+    @media (max-width: 992px) {
+      .hero.static-header header {
+        background: #fff !important;
+        position: fixed;
+        border-bottom: solid 1px rgba(0, 0, 0, 0.12) !important; } }
   .hero.traning {
     background: none;
     max-height: 717px;
@@ -581,29 +600,22 @@ header {
       .hero.traning {
         height: 778px;
         background-size: contain;
-        background-position: bottom; }
-        .hero.traning header ul {
-          top: 105px; } }
-    .hero.traning header {
-      background: #fff !important;
-      border-bottom: solid 1px rgba(0, 0, 0, 0.12) !important;
-      position: absolute; }
-      @media (max-width: 992px) {
-        .hero.traning header {
-          background: #fff !important;
-          position: fixed;
-          border-bottom: solid 1px rgba(0, 0, 0, 0.12) !important; } }
+        background-position: bottom; } }
     .hero.traning .badge-mobile {
       display: none;
       text-align: center;
       padding-top: 62px; }
       .hero.traning .badge-mobile img {
-        width: 50%; }
+        width: 90%;
+        max-width: 300px; }
       @media (max-width: 767px) {
         .hero.traning .badge-mobile {
           display: block; } }
     .hero.traning .text-block {
       margin-top: 236px; }
+      @media (max-width: 767px) {
+        .hero.traning .text-block {
+          margin-top: 100px; } }
       .hero.traning .text-block p span {
         color: #FF9E22; }
       @media (max-width: 767px) {
@@ -1638,5 +1650,8 @@ footer {
     width: 100%; }
     .traning-menu-wrap.active .traning-menu {
       top: 0px; }
+  @media (max-width: 767px) {
+    .traning-menu-wrap {
+      display: none; } }
 
 /*# sourceMappingURL=main.css.map */

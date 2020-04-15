@@ -51,9 +51,7 @@ $(document).ready(function() {
 
     offset: $('header.active').outerHeight(),
     beforeStart: function() {
-      if($('body').hasClass('main')) {
-        closeMenu();
-      }
+      closeMenu();
     },
     filter: ':not(.external)'
   });
