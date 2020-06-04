@@ -925,6 +925,20 @@ header {
       .trainings .block-text {
         font-size: 15px;
         line-height: 23px; } }
+  .trainings .nav-tabs {
+    margin-bottom: 32px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    width: calc(100% - 30px); }
+    @media (max-width: 767px) {
+      .trainings .nav-tabs {
+        width: 100%; } }
+  .trainings .nav-link {
+    color: #0296D7;
+    margin-right: 12px; }
+  .trainings .nav-link.active {
+    border-color: rgba(0, 0, 0, 0.12) rgba(0, 0, 0, 0.12) transparent !important;
+    background-color: transparent !important;
+    border-bottom-color: #FAFAFA !important; }
 
 .about {
   padding: 120px 0 120px; }

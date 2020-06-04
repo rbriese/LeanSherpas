@@ -74,8 +74,14 @@ function owlInitialize() {
         dots: true,
         touchDrag: true
       });
+      $('#carouselPast').owlCarousel({
+        items: 1,
+        dots: true,
+        touchDrag: true
+      });
    }else{
       $('#carousel1').owlCarousel('destroy');
+      $('#carouselPast').owlCarousel('destroy');
    }
 }
 
