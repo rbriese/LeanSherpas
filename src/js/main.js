@@ -56,6 +56,12 @@ $(document).ready(function() {
     filter: ':not(.external)'
   });
 
+  $('.single-page-nav-2').singlePageNav({
+
+    offset: $('header.active').outerHeight(),
+    filter: ':not(.external)'
+  });
+
   $('#carousel2').owlCarousel({
     items: 1,
     dots: true,
