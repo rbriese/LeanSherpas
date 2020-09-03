@@ -119,6 +119,11 @@ function checkCookieOnLoad() {
    }
 }
 
+$('.swithcer').on('click', function() {
+  $(this).addClass('hide');
+  $('.inline-element').removeClass('hide');
+});
+
 $('.ok-button').on('click', function() {
   setCookie('clicklink', 'yes', 1);
   checkCookieOnLoad();
