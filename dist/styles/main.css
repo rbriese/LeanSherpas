@@ -471,13 +471,15 @@ p {
     display: none !important; }
   .timetable .co {
     width: 25%;
-    min-width: 25%; }
+    min-width: 25%;
+    font-size: 16px; }
     @media (max-width: 767px) {
       .timetable .co {
         width: 100%;
         max-width: 100%;
         margin-bottom: 8px;
-        text-align: center; } }
+        text-align: center;
+        font-size: 15px; } }
     .timetable .co.last {
       display: flex;
       justify-content: flex-end; }
@@ -726,7 +728,7 @@ header {
     @media (max-width: 767px) {
       .hero.scrum-master {
         background-position: center center;
-        background-size: 530px;
+        background-size: 660px;
         height: 660px; } }
   .hero.feedback {
     background-image: none;
@@ -1580,7 +1582,7 @@ footer {
   .course .inner {
     padding-right: 0px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-    height: 125px;
+    height: 155px;
     margin-bottom: 40px; }
     @media (max-width: 767px) {
       .course .inner {
@@ -1785,9 +1787,12 @@ footer {
     @media (max-width: 767px) {
       .time .time-row {
         justify-content: flex-start; } }
-    @media (max-width: 767px) {
-      .time .time-row p {
-        padding-right: 12px; } }
+    .time .time-row p {
+      font-size: 16px; }
+      @media (max-width: 767px) {
+        .time .time-row p {
+          padding-right: 12px;
+          font-size: 15px; } }
 
 .agenda {
   padding: 70px 0;
@@ -1818,7 +1823,7 @@ footer {
       .trainer .title {
         margin-bottom: 48px; } }
   .trainer img {
-    width: 31%;
+    width: 23%;
     bottom: 0px;
     position: absolute;
     right: 0px; }
