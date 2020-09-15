@@ -711,6 +711,10 @@ header {
   .title.transparent:before {
     display: none; }
 
+.grey-bg {
+  background-color: #FAFAFA;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.12); }
+
 .hero {
   background: url("../img/hero.png");
   background-size: contain;
@@ -721,10 +725,29 @@ header {
   border-bottom: solid 1px rgba(0, 0, 0, 0.12); }
   .hero.scrum-master {
     background-image: url("../img/scrum-master.png");
-    background-size: 745px;
+    background-size: 650px;
     background-repeat: no-repeat;
-    background-position: top right;
-    background-color: #FAFAFA; }
+    background-position: calc(100% - 50px) calc(100% - 50px);
+    background-color: #FAFAFA;
+    max-width: 1440px;
+    margin: 0 auto;
+    border-bottom: none; }
+    @media (max-width: 1350px) {
+      .hero.scrum-master {
+        background-size: 570px;
+        background-position: calc(100% - 30px) calc(100% - 120px); } }
+    @media (max-width: 1200px) {
+      .hero.scrum-master {
+        background-size: 440px;
+        background-position: calc(100% - 30px) calc(100% - 210px); } }
+    @media (max-width: 1080px) {
+      .hero.scrum-master {
+        background-size: 360px;
+        background-position: calc(100% - 30px) calc(100% - 230px); } }
+    @media (max-width: 997px) {
+      .hero.scrum-master {
+        background-size: 290px;
+        background-position: calc(100% - 50px) calc(100% - 160px); } }
     @media (max-width: 767px) {
       .hero.scrum-master {
         background-position: center center;
@@ -1570,7 +1593,9 @@ footer {
   background: #FAFAFA;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 70px 0; }
+  padding: 70px 0;
+  max-width: 1440px;
+  margin: 0 auto; }
   @media (max-width: 767px) {
     .course {
       padding: 40px 0 24px; } }
@@ -1727,7 +1752,9 @@ footer {
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  background-position: top center; }
+  background-position: top center;
+  max-width: 1440px;
+  margin: 0 auto; }
   .target .title {
     margin-bottom: 52px; }
     @media (max-width: 767px) {
@@ -1757,7 +1784,9 @@ footer {
   background: #FAFAFA;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 70px 0; }
+  padding: 70px 0;
+  max-width: 1440px;
+  margin: 0 auto; }
   @media (max-width: 767px) {
     .time {
       padding: 50px 0; } }
@@ -1813,7 +1842,9 @@ footer {
 .trainer {
   position: relative;
   background: #FAFAFA;
-  padding: 70px 0; }
+  padding: 70px 0;
+  max-width: 1440px;
+  margin: 0 auto; }
   @media (max-width: 767px) {
     .trainer {
       padding: 50px 0 200px; } }
@@ -1823,7 +1854,7 @@ footer {
       .trainer .title {
         margin-bottom: 48px; } }
   .trainer img {
-    width: 23%;
+    width: 330px;
     bottom: 0px;
     position: absolute;
     right: 0px; }
