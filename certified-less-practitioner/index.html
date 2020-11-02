@@ -25,7 +25,7 @@
                 <li><a href="/#section1" class="external">Services</a></li>
                 <li><a href="/#section2" class="external">Trainings</a></li>
                 <li><a href="/#section3" class="external">About Us</a></li>
-                <li><a href="/#section5" class="external">Contact</a></li>
+                <li><a type="button" data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;">Contact</a> </li>
               </ul>
             </div>
             <div class="inner-mobile">
@@ -455,6 +455,40 @@
         </div>
       </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <p class="title small blue">Get a Free Consultation</p>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <form action="https://formspree.io/info@leansherpas.com" method="POST" name="input">
+            <div class="modal-body">
+              <div class="form-inner">
+                <label for="">First Name</label>
+                <input type="text" name="firstname">
+                <label for="">Last Name</label>
+                <input type="text" name="lastname">
+                <label for="">E-Mail</label>
+                <input type="email" name="_replyto">
+                <label for="">Message</label>
+                <input type="text" name="message" style="min-height: 150px;">
+              </div>
+              <img src="../dist/img/modal.svg" alt="">
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="submit" value="Send" class="btn btn-primary">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
 
     <!-- Scripts -->
     <script src="../dist/js/vendor.min.js"></script>
