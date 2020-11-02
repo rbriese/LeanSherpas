@@ -768,12 +768,12 @@ header {
       .hero.scrum-master {
         background-position: center center;
         background-size: 430px;
-        height: 790px; } }
+        height: 840px; } }
     .hero.scrum-master .icons-block {
       display: flex;
       width: 550px;
       justify-content: space-between;
-      margin-top: 100px; }
+      margin-top: 10px; }
       @media (max-width: 997px) {
         .hero.scrum-master .icons-block {
           width: 480px; } }
