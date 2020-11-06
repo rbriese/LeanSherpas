@@ -573,9 +573,21 @@ header {
         display: none; } }
   header .menu-js {
     cursor: pointer; }
+  header .lang {
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: #04162C; }
+    header .lang:focus {
+      outline: -webkit-focus-ring-color auto 0px; }
   header .inner {
     display: flex;
     align-items: center; }
+    header .inner.locale {
+      justify-content: space-between; }
+      @media (max-width: 776px) {
+        header .inner.locale .lang {
+          display: none; } }
     header .inner img {
       width: 87px; }
   header ul {
@@ -604,6 +616,11 @@ header {
     @media (max-width: 767px) {
       header .inner-mobile {
         display: flex; } }
+    header .inner-mobile.locale .right {
+      display: flex;
+      align-items: center; }
+    header .inner-mobile.locale .lang {
+      margin-right: 24px; }
     header .inner-mobile .logo-mobile {
       width: 60px; }
   @media (max-width: 767px) {
