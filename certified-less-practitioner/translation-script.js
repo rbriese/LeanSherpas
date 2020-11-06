@@ -72,9 +72,9 @@ $(function () {
             "_tab_3_9": "Eveyone who wants to know more about Scrum",
             "_tab_3_10": "",
             "_tab_3_11": "Prerequisites",
-            "_tab_3_12": "The only prerequisite to the course is basic Scrum knowledge. That can be picked up by attending a <a href="https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster" target="_blank">Certified Scrum Master </a>or a <a href="https://www.scrum.org/courses/professional-scrum-master-training" target="_blank">Professional Scrum Master</a> course, or thoroughly reading Scrum introduction material such as the <a href="https://scrumprimer.org/" target="_blank">Scrum Primer</a> and practicing Scrum.",
+            "_tab_3_12": "The only prerequisite to the course is basic Scrum knowledge. That can be picked up by attending a <a href='https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster' target='_blank'>Certified Scrum Master </a>or a <a href='https://www.scrum.org/courses/professional-scrum-master-training' target='_blank'>Professional Scrum Master</a> course, or thoroughly reading Scrum introduction material such as the <a href='https://scrumprimer.org/' target='_blank'>Scrum Primer</a> and practicing Scrum.",
             "_tab_3_13": "Recommended Preparation",
-            "_tab_3_14": "Participants should review Scrum introduction material such as the <a href="https://scrumprimer.org/" target="_blank">Scrum Primer</a>. Another great preparation for this course is the <a href="https://less.works/less/test/scrum.html" target="_blank">Scrum Test</a> on less.works. <b>It’s strongly encouraged to do this test before attending the course</b>.",
+            "_tab_3_14": "Participants should review Scrum introduction material such as the <a href='https://scrumprimer.org/' target='_blank'>Scrum Primer</a>. Another great preparation for this course is the <a href='https://less.works/less/test/scrum.html' target='_blank'>Scrum Test</a> on less.works. <b>It’s strongly encouraged to do this test before attending the course</b>.",
             "_tab_4_1": "Veranstaltungshinweise",
             "_tab_4_2": "Maßnahmen bei Präsenztrainings",
             "_tab_4_3": "Die Gesundheit unserer Teilnehmer und Teilnehmerinnen hat oberste Priorität. Hier sind <strong>Hygienemaßnahmen</strong> natürlich besonders wichtig:",
@@ -106,7 +106,7 @@ $(function () {
             "_feedback_7": "Christian Strenge, Startup Coach",
             "_trainer_1": "About the trainer",
             "_trainer_2": "Robert is one of 22 certified LeSS Trainers globally and one of the few with hands-on experience in LeSS and LeSS Huge. As a <b>change agent for 15+ years </b>consulting and coaching, he has worked with over 30 companies, including DAX-listed global brands such as Adidas, BMW, BP, Dr. Oetker, Henkel, Hilti, Hugo Boss, SAP, Volkswagen, and ZF.",
-            "_trainer_3": "From 2015 to 2016 he <b>led a LeSS adoption</b> at a <a href="https://less.works/case-studies/sys.html" target="_blank">Global Player in the Software Industry</a>, scaling development from 3 to 7 teams and coaching the development and the management team on how to lead a scaled agile organization. In 2018 he contributed to significant improvements in product delivery at <b>one of the biggest LeSS Huge adoptions in the world at BMW AG</b>. Working with over 30 teams, including large groups of over 400 employees, he led them to deliver bi-weekly product increments consisting of hardware and software.",
+            "_trainer_3": "From 2015 to 2016 he <b>led a LeSS adoption</b> at a <a href='https://less.works/case-studies/sys.html' target='_blank'>Global Player in the Software Industry</a>, scaling development from 3 to 7 teams and coaching the development and the management team on how to lead a scaled agile organization. In 2018 he contributed to significant improvements in product delivery at <b>one of the biggest LeSS Huge adoptions in the world at BMW AG</b>. Working with over 30 teams, including large groups of over 400 employees, he led them to deliver bi-weekly product increments consisting of hardware and software.",
             "_trainer_4": "Read more",
             "_contact_1": "Book Now",
             "_contact_2": "Choosen date",
@@ -260,7 +260,6 @@ $(function () {
     set_lang = function (dictionary) {
         $("[data-translate]").html(function () {
             var key = $(this).data("translate");
-            console.log(key)
             if (dictionary.hasOwnProperty(key)) {
                 return dictionary[key];
             }
