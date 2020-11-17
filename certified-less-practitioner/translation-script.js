@@ -75,7 +75,7 @@ $(function () {
             "_tab_3_12": "The only prerequisite to the course is basic Scrum knowledge. That can be picked up by attending a <a href='https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster' target='_blank'>Certified Scrum Master </a>or a <a href='https://www.scrum.org/courses/professional-scrum-master-training' target='_blank'>Professional Scrum Master</a> course, or thoroughly reading Scrum introduction material such as the <a href='https://scrumprimer.org/' target='_blank'>Scrum Primer</a> and practicing Scrum.",
             "_tab_3_13": "Recommended Preparation",
             "_tab_3_14": "Participants should review Scrum introduction material such as the <a href='https://scrumprimer.org/' target='_blank'>Scrum Primer</a>. Another great preparation for this course is the <a href='https://less.works/less/test/scrum.html' target='_blank'>Scrum Test</a> on less.works. <b>It’s strongly encouraged to do this test before attending the course</b>.",
-            "_tab_4_1": "Veranstaltungshinweise",
+            "_tab_4_1": "Event Information",
             "_tab_4_2": "Maßnahmen bei Präsenztrainings",
             "_tab_4_3": "Die Gesundheit unserer Teilnehmer und Teilnehmerinnen hat oberste Priorität. Hier sind <strong>Hygienemaßnahmen</strong> natürlich besonders wichtig:",
             "_tab_4_4": "<strong>Große Räume / Abstand:</strong> Unsere Trainings werden in besonders großen Räumen durchgeführt, so dass alle Teilnehmer mit genug Abstand zu einander sitzen konnten, um am eigenen Platz jeweils keine Maske zu benötigen.",
