@@ -223,7 +223,7 @@ $(function () {
             "_feedback_1": "Teilnehmerfeedback",
             "_feedback_2": '“Robert used innovative ideas and tools in his online CLP class. He was very friendly and patient with regards to questions and illustrated many aspects with anecdotes from the "real world". He mastered the technology well!”',
             "_feedback_3": "Kai Radtke, Gründer und Gesellschafter von <span>metanoia berlin GbR</span>",
-            "_feedback_4": '“I enjoyed the content as well as the presentatio using Miro. The diversity of the group was very interesting which lead to good questions and conversations.  Robert approached the training very much coming from the values side of LeSS (and Scrum).”'',
+            "_feedback_4": '“I enjoyed the content as well as the presentatio using Miro. The diversity of the group was very interesting which lead to good questions and conversations.  Robert approached the training very much coming from the values side of LeSS (and Scrum).”',
             "_feedback_5": "Nadja Krombach, Sr. Innovation Consultant at <span>zero360 GmbH</span>",
             "_feedback_6": '“Small group, very efficient, great online experience, very good tools, every question answered.”',
             "_feedback_7": "Christian Strenge, Startup Coach",
