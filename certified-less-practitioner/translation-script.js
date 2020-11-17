@@ -133,7 +133,8 @@ $(function () {
             "_contact_19": "Bestätigung *",
             "_contact_20": "Ich habe die Datenschutzerklärung und die Teilnahmebedingungen gelesen und erkläre mich mit diesen einverstanden.",
             "_contact_21": "Sonstige Bemerkungen (Verpflegungswünsche, Gutscheincodes, etc.)",
-            "_contact_22": "Verbindlich Anmelden"
+            "_contact_22": "Verbindlich Anmelden",
+            "_more_btn": 'More'
         },
         "de": {
             "_services": "Services",
@@ -260,7 +261,8 @@ $(function () {
             "_contact_19": "Bestätigung *",
             "_contact_20": "Ich habe die Datenschutzerklärung und die Teilnahmebedingungen gelesen und erkläre mich mit diesen einverstanden.",
             "_contact_21": "Sonstige Bemerkungen (Verpflegungswünsche, Gutscheincodes, etc.)",
-            "_contact_22": "Verbindlich Anmelden"
+            "_contact_22": "Verbindlich Anmelden",
+            "_more_btn": 'Weitere Termine'
         }
     };
 
