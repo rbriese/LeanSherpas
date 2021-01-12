@@ -98,6 +98,20 @@
   }
 }
 
+.swithcer {
+  font-size: 16px;
+  align-items: center;
+  color: #0296D7;
+  margin-top: 24px;
+  display: flex;
+  cursor: pointer;
+  img {
+    margin-left: 8px;
+  }
+}
+.hide {
+  display: none !important;
+}
 
 .timetable {
   padding: 70px 0;

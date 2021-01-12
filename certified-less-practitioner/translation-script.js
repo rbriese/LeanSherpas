@@ -134,7 +134,7 @@ $(function () {
             "_contact_20": "Ich habe die Datenschutzerklärung und die Teilnahmebedingungen gelesen und erkläre mich mit diesen einverstanden.",
             "_contact_21": "Sonstige Bemerkungen (Verpflegungswünsche, Gutscheincodes, etc.)",
             "_contact_22": "Verbindlich Anmelden",
-            "_more_btn": 'More'
+            "_more": "More"
         },
         "de": {
             "_services": "Services",
@@ -262,7 +262,7 @@ $(function () {
             "_contact_20": "Ich habe die Datenschutzerklärung und die Teilnahmebedingungen gelesen und erkläre mich mit diesen einverstanden.",
             "_contact_21": "Sonstige Bemerkungen (Verpflegungswünsche, Gutscheincodes, etc.)",
             "_contact_22": "Verbindlich Anmelden",
-            "_more_btn": 'Weitere Termine'
+            "_more": "Weitere Termine"
         }
     };
 
@@ -278,13 +278,12 @@ $(function () {
 
     // Swap languages when menu changes
     $(".lang").on("change", function () {
-        var language = $(this).val().toLowerCase();
+        var language = $(this).val().toLowerCase().substring(4);
         if (dictionary.hasOwnProperty(language)) {
             set_lang(dictionary[language]);
         }
     });
 
-    // Set initial language to de
-    set_lang(dictionary.de);
+    set_lang(dictionary.de)
 
 });
